@@ -1,9 +1,13 @@
-import React from 'react'
+import { Box } from "@mui/system";
+import React from "react";
+import Navbar from "../navbar/Navbar";
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
-  )
-}
+    <Box>
+      <Navbar />
+    </Box>
+  );
+};
 
-export default Homepage
+export default Homepage;
